@@ -1,0 +1,160 @@
+<!DOCTYPE HTML>
+<HTML>
+<head>
+	<style type="text/css">
+		.header_top{width:970px;margin:0 auto;overflow:hidden;}
+		.header_top #logo{float:left;}
+		.header_top #banner{float:left;padding-left:40px;padding-top:20px;font-size:20px;}
+		
+		.menu {background:orange;overflow:hidden;}
+		.menu .container-menu{width:970px;margin:0 auto;overflow:hidden;}
+		.menu ul{margin:0; list-style:none;padding:0;}
+		.menu ul img{padding: 6.5px; float: left}
+		.menu li{float:left;display:inline-block;line-height:45px;}
+		.menu li img{float:left;width:36px;padding: 4px 0 4px;}
+		.menu li a{text-decoration:none;padding: 15px;font-size:14px;color:white;font-weight:bold;}
+		.menu li a:hover{color:black;}
+		.menu li .sub-menu{padding:0;display:absolute}
+		.menu .sub-menu .sub-danhmuc{display:none;position:absolute;background:#696969;width:500px;}
+		.menu li:hover .sub-menu .sub-danhmuc{display:block;}
+		.menu .sub-danhmuc a{float:left;width:45%;padding:0;list-style:none;line-height:30px;font-size:14px;padding-left:5%;}
+		.menu .container-menu .search{float:right;line-height:45px;}
+		.menu .search input{width:250px;border:none;border-radius:4px;box-shadow:none;height:30px}
+		.menu .search img{height:30px;line-height:45px;float:right;padding:7.5px;padding-left:0}
+		
+		#slider{width:970px;overflow:hidden;margin:0 auto;}
+		.slider-left{width:20%;float:left;overflow:hidden;box-sizing:border-box;padding-right:5px;}
+		.slider-left h4{background:orange;margin-bottom:0;line-height:40px;color:white;padding-left:10px;}
+		.slider-left ul{margin-top:0;float:left;padding:0;margin:0 auto;border:1px solid #d8d8d8;}
+		.slider-left ul li{list-style:none;border-bottom:1px solid #d8d8d8;padding:8px 10px 8px 15px;}
+		.slider-left ul li a{text-decoration:none;color:black;}
+		.slider-left li:hover {background:orange;}
+		.slider-left li:hover a{color:white;}
+		
+		.slider-center{width:50%;background:#d8d8d8;overflow:hidden;float:left}
+		
+		.slider-right{width:20%;float:right;overflow:hidden;padding-right:5px}
+		.slider-right h4{background:orange;margin-bottom:0;line-height:40px;color:white;padding-left:10px;}
+		.slider-right ul{border:1px solid #d8d8d8;margin:0;padding:0}
+		.slider-right ul li{text-align:center;font-size:14px;border-top:1px dotted #d8d8d8;}
+		.slider-right ul li a{text-decoration:none;}
+		.slider-right ul li a img{width:auto;height:150px;}
+		.slider-right ul li a h5{line-height:0;margin:5px;font-size:13px;padding-bottom:5px;}
+		.slider-right .key{color:#32a540;}
+		.slider-right .gia{color:red;}
+		
+		
+	</style>
+</head>
+<body>
+	<div id="header">
+		<div class="header_top">
+			<div id="logo">
+				<img src="C:\Users\AM\Desktop\bai_tap\images\ic-logo.jpg">
+			</div>
+			<div id="banner">
+					MUA HANG QUA HOTLINE:<span style="color:red"> 0915 54 00 37 - 0986 25 34 20</span>
+			</div>	
+		</div>
+		<div class="menu">
+			<div class="container-menu">
+				<ul>
+					<img src="C:\Users\AM\Desktop\bai_tap\images\icon-trangchu.png"> 
+					<li>
+						<a href="#">Trang Chu</a>
+					</li>
+					<li>
+						<a href="#">San Pham</a>
+						<ul class="sub-menu">
+							<li class="sub-danhmuc">
+								<a href="#">Nguon du phong oto Carpow</a>
+								<a href="#">Cam bien lop ap suat xe tai, khach</a>
+								<a href="#">Bo kich thay lop 2T</a>
+								<a href="#">Bom lop oto mini 12v</a>
+								<a href="#">Phu tung oto</a>
+								<a href="#">Phu kien khac</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">Carpow</a>
+						<ul class="sub-menu">
+							<li class="sub-danhmuc">
+								<a href="#">Carpow factory</a>
+								<a href="#">Carpow Austrilia</a>
+								<a href="#">Carpow 1</a>
+								<a href="#">Carpow 2</a>
+								<a href="#">Carpow 3</a>
+								<a href="#">Carpow 4</a>
+							</li>
+						</ul>
+					</li>
+					<li><a href="#">Gioi Thieu</a></li>
+					<li><a href="#">Tin Tuc</a></li>
+					<li><a href="#">Tuyen Dung</a></li>
+					<li><a href="#">Lien He</a></li>
+				</ul>
+				<div class="search">
+					<input type="search"  value name="Search">
+					<img src="C:\Users\AM\Desktop\bai_tap\images\icon-search.png">
+				</div>
+			</div>
+			
+		</div>	
+	</div>
+	
+	<div id="slider">
+		<div class="slider-left">
+			<h4>Danh Muc San Pham</h4>
+			<ul>
+				<li><a href="#">Nguon Du Phong Carpow</a></li>
+				<li><a href="#">Cam Bien Ap Suat Lop TPMS Spy Xe Du Lich</a></li>
+				<li><a href="#">Cam Bien Ap Suat Lop TPMS OBIZ Xe Tai, Khach</a></li>
+				<li><a href="#">Sac Dien Thoai Oto</a></li>
+				<li><a href="#">Bo Kich Thay Lop-2T</a></li>
+				<li><a href="#">Phu Kien Khac</a></li>
+				<li><a href="#">Phu Tung Oto</a></li>
+			</ul>
+		</div>
+		
+		<div class="slider-center">
+		
+		</div>
+		
+		<div class="slider-right">
+			<h4>San Pham Tieu Bieu</h4>
+			<ul>
+				<li>
+					<a href="#">
+						<img src="C:\Users\AM\Desktop\bai_tap\images\1-600x600.jpg">
+						<h5>Nguon Du Phong Carpow D50</h5>
+						<div class="key">
+							Ma: <span>N/A</span>
+						</div>
+						<div class="gia">
+							Gia: <span></span>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="#">	
+						<img src="C:\Users\AM\Desktop\bai_tap\images\12-250x250.jpg">
+						<h5>Nguon Du Phong Carpow</h5>
+						<div class="key">
+							Ma: <span>N/A</span>
+						</div>
+						<div class="gia">
+							Gia: <span></span>
+						</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+
+	</div>
+	
+	<div id="content">
+	
+	</div>
+</body>
+</HTML>
